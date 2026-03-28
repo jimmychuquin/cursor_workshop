@@ -18,9 +18,9 @@ const siteUrl =
 
 export const metadata: Metadata = {
   ...(siteUrl ? { metadataBase: new URL(siteUrl) } : {}),
-  title: "Cursor Workshop Quito",
+  title: "tech-ec — Más clientes y menos fricción para tu negocio local",
   description:
-    "Taller práctico en Quito: aprende Cursor, crea y publica tu landing page. Presentado por Cursor Community.",
+    "Presencia web, automatización y soporte pensados para comercios y servicios de barrio. Diagnóstico claro, entregables medibles y acompañamiento cercano.",
   icons: {
     icon: [
       { url: "/favicon.ico", sizes: "any" },
